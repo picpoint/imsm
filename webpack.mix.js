@@ -11,7 +11,15 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+// mix.js('resources/js/app.js', 'public/js')
+//     .postCss('resources/css/app.css', 'public/css', [
+//         //
+//     ]);
+
+
+
+
+mix.sass('resources/assets/users/scss/index.scss', '/public/assets/users/css/index.css')
+    .browserSync({
+        proxy: 'http://imsm/'
+    });

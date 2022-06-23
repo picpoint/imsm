@@ -1,0 +1,25 @@
+@import "var.scss";
+
+
+
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  transition: 1s ease-in-out 2s;
+}
+
+
+
+
+.index {
+  border: $border;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+}
