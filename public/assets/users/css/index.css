@@ -1,11 +1,23 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("/public/assets/users/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Play-Bold";
+  src: url("/public/assets/users/fonts/Play-Bold.ttf");
+}
+@font-face {
+  font-family: "Play-Regular";
+  src: url("/public/assets/users/fonts/Play-Regular.ttf");
+}
 body {
   min-height: 100vh;
+  scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   box-sizing: border-box;
   margin: 0;
   overflow-x: hidden;
-  transition: 1s ease-in-out 2s;
 }
 
 .index {
@@ -13,4 +25,37 @@ body {
   display: flex;
   width: 100vw;
   height: 100vh;
+}
+.index__wrapper {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.index__regblockwrp {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+.index__regblock {
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+}
+.index__regblock i {
+  color: #818183;
+  font-size: 1.1rem;
+}
+.index__regblock a {
+  text-decoration: none;
+  color: #818183;
+  margin-left: 10px;
+  font-family: Montserrat-Regular;
+  font-size: 0.9rem;
 }
