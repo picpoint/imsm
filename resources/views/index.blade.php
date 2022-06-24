@@ -20,6 +20,25 @@
                     <a href="#">Личный кабинет</a>
                 </div>
             </div>
+
+            <div class="index__logoblockwrp">
+                <div class="index__logoblock">
+                    <div class="index__logoblockphone">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>8-800-555-55-55</span>
+                    </div>
+                    <div class="index__logoblockpict">
+                        <a href="#">
+                            <img src="#" alt="logo">
+                        </a>
+                    </div>
+                    <div class="index__logoblockbasket">
+                        <a href="#">
+                            <img src="#" alt="basket">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
