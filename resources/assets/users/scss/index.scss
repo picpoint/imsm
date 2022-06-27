@@ -30,7 +30,7 @@ body {
       width: 100%;
       height: 100%;
     }
-    &__regblockwrp {
+    &__regblock {
       //border: $border;
       display: flex;
       justify-content: center;
@@ -38,7 +38,7 @@ body {
       width: 100%;
       background-color: $colorlightgray;
     }
-    &__regblock {
+    &__regblockwrp {
       //border: $border;
       display: flex;
       justify-content: flex-end;
@@ -58,26 +58,26 @@ body {
         }
     }
 
-    &__logoblockwrp {
-      border: $border;
+    &__logoblock {
+      //border: $border;
       display: flex;
       justify-content: center;
       width: 100%;
       height: 100px;
     }
-    &__logoblock {
-      border: $border;
+    &__logoblockwrp {
+      //border: $border;
       display: flex;
       width: 80%;
     }
     &__logoblockphone {
-      border: $border;
+      //border: $border;
       display: flex;
       justify-content: center;
       align-items: center;
       width: 25%;
         i {
-          border: $border;
+          //border: $border;
           font-size: 1.5rem;
         }
         span {
@@ -87,14 +87,80 @@ body {
         }
     }
     &__logoblockpict {
-      border: $border;
+      //border: $border;
       display: flex;
+      justify-content: center;
       width: 50%;
+        a {
+          //border: $border;
+          display: flex;
+          align-items: center;
+          img {
+            //border: $border;
+            height: 85%;
+          }
+        }
     }
     &__logoblockbasket {
+      //border: $border;
+      display: flex;
+      justify-content: center;
+      width: 25%;
+        a {
+          //border: $border;
+          display: flex;
+          align-items: center;
+            img {
+              //border: $border;
+              width: 40px;
+            }
+        }
+    }
+
+    &__menublock {
       border: $border;
       display: flex;
-      width: 25%;
+      justify-content: center;
+      height: 55px;
+      background-color: $colorgreenbrand;
+    }
+    &__menublockwrp {
+      border: $border;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 80%;
+        a {
+          border: $border;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          color: white;
+          font-size: 1.1rem;
+          font-family: Montserrat-Regular;
+          transition: $transition;
+          flex-grow: 1;
+          height: 100%;
+            &:hover {
+              font-weight: bold;
+              transition: $transition;
+              color: $colorgreenbrand;
+              background-color: white;
+            }
+        }
+    }
+
+    &__sliderblock {
+      border: $border;
+      display: flex;
+      height: 600px;
+    }
+    &__sliderblockwrp {
+      border: $border;
+      display: flex;
+      width: 100%;
+      height: 100%;
     }
 
 
