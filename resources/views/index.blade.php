@@ -82,9 +82,58 @@
                     </div>
                     <div class="index__popcategoriescartblock">
                         <div class="index__popcategoriescartblockwrp">
+                            <div class="index__popcategoriescart">
+                                <a href="#">
+                                    <img src="/public/assets/users/img/dacha.jpg" alt="category">
+                                </a>
+                            </div>
+                            <div class="index__popcategoriescart">
+                                <a href="#">
+                                    <img src="/public/assets/users/img/krovlya.jpg" alt="category">
+                                </a>
+                            </div>
+                            <div class="index__popcategoriescart">
+                                <a href="#">
+                                    <img src="/public/assets/users/img/steni.jpg" alt="category">
+                                </a>
+                            </div>
+                            <div class="index__popcategoriescart">
+                                <a href="#">
+                                    <img src="/public/assets/users/img/smesi.jpg" alt="category">
+                                </a>
+                            </div>
+                            <div class="index__popcategoriescart">
+                                <a href="#">
+                                    <img src="/public/assets/users/img/kraski.jpg" alt="category">
+                                </a>
+                            </div>
+                            <div class="index__popcategoriescart">
+                                <a href="#">
+                                    <img src="/public/assets/users/img/peny.jpg" alt="category">
+                                </a>
+                            </div>
+                            <div class="index__popcategoriescart">
+                                <a href="#">
+                                    <img src="/public/assets/users/img/krepez.jpg" alt="category">
+                                </a>
+                            </div>
+                            <div class="index__popcategoriescart">
+                                <a href="#">
+                                    <img src="/public/assets/users/img/komplektuyushie.jpg" alt="category">
+                                </a>
+                            </div>
 
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="index__newproducts">
+                <div class="index__newproductswrp">
+                    <div class="index__newproductshdr">
+                        <span>НОВИНКИ</span>
+                    </div>
+                    
                 </div>
             </div>
 

@@ -21,8 +21,8 @@ body {
 .index {
   //border: $border;
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  //width: 100vw;
+  //height: 100vh;
     &__wrapper {
       //border: $border;
       display: flex;
@@ -202,39 +202,78 @@ body {
     }
 
     &__popcategories {
-      border: $border;
+      //border: $border;
       display: flex;
       //height: 500px;
     }
     &__popcategorieswrp {
-      border: $border;
+      //border: $border;
       display: flex;
       flex-direction: column;
       justify-content: center;
       width: 100%;
     }
     &__popcategorieshdr {
-      border: $border;
+      //border: $border;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 70px;
+      margin: 30px 0;
         span {
-          border: $border;
+          //border: $border;
           font-size: 2rem;
           font-family: Montserrat-Regular;
         }
     }
     &__popcategoriescartblock {
+      //border: $border;
+      display: flex;
+      justify-content: center;
+    }
+    &__popcategoriescartblockwrp {
+      //border: $border;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    &__popcategoriescart {
+      //border: $border;
+      display: flex;
+      width: 370px;
+      height: 270px;
+      margin: 30px;
+        a {
+          //border: $border;
+          width: 100%;
+          height: 100%;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+        }
+    }
+
+    &__newproducts {
+      border: $border;
+      display: flex;
+    }
+    &__newproductswrp {
       border: $border;
       display: flex;
       justify-content: center;
-      height: 300px;
+      width: 100%;
+      height: 100%;
     }
-    &__popcategoriescartblockwrp {
+    &__newproductshdr {
       border: $border;
       display: flex;
-      width: 80%;
+      margin: 30px 0;
+        span {
+          font-size: 2rem;
+          font-family: Montserrat-Regular;
+        }
     }
 
 
