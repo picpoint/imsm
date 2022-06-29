@@ -54,7 +54,37 @@
 
             <div class="index__sliderblock">
                 <div class="index__sliderblockwrp">
-                    <img src="#" alt="slide">
+                    <img src="/public/assets/users/img/slider01.jpg" alt="slide">
+                </div>
+            </div>
+
+            <div class="index__infoblock">
+                <div class="index__infoblockwrp">
+                    <div class="index__info">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Онлайн консультант</span>
+                    </div>
+                    <div class="index__info">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Весь товар сертифицирован</span>
+                    </div>
+                    <div class="index__info">
+                        <i class="fas fa-truck"></i>
+                        <span>Удобная быстрая доставка</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="index__popcategories">
+                <div class="index__popcategorieswrp">
+                    <div class="index__popcategorieshdr">
+                        <span>ПОПУЛЯРНЫЕ КАТЕГОРИИ ТОВАРОВ</span>
+                    </div>
+                    <div class="index__popcategoriescartblock">
+                        <div class="index__popcategoriescartblockwrp">
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
