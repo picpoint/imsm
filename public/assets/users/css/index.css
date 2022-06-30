@@ -218,7 +218,6 @@ body {
   height: 100%;
 }
 .index__newproducts {
-  border: 1px solid red;
   display: flex;
 }
 .index__newproductswrp {
@@ -230,7 +229,6 @@ body {
   height: 100%;
 }
 .index__newproductshdr {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   margin: 30px 0;
@@ -240,24 +238,24 @@ body {
   font-family: Montserrat-Regular;
 }
 .index__newproductcardsblock {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
 }
 .index__newproductcardsblockwrp {
   border: 1px solid red;
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   width: 80%;
 }
 .index__newproductcart {
-  border: 1px solid red;
+  border: 1px solid lightgrey;
   display: flex;
   flex-direction: column;
   width: 300px;
-  height: 600px;
+  margin: 15px 30px;
 }
 .index__newproductcartimg {
-  border: 1px solid red;
   display: flex;
   width: 300px;
   height: 300px;
@@ -267,31 +265,56 @@ body {
   height: 100%;
 }
 .index__newproductcartdesc {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
 }
 .index__newproductcartdesc span {
-  border: 1px solid red;
   font-family: Montserrat-Regular;
   font-size: 0.9rem;
   width: 90%;
 }
 .index__newproductcartprice {
-  border: 1px solid red;
   display: flex;
   justify-content: flex-end;
   margin-top: 10px;
 }
 .index__newproductcartprice span {
-  border: 1px solid red;
   font-family: Montserrat-Regular;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .index__newproductcartprice span:nth-child(1) {
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 .index__newproductcartprice span:nth-child(2) {
   align-self: flex-end;
+  margin: 0 10px;
+}
+.index__newproductcartbtns {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+}
+.index__newproductcartbtns form {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.index__newproductcartbtns form button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: Montserrat-Regular;
+}
+.index__newproductcartbtns form button:nth-child(1) {
+  width: 120px;
+  height: 40px;
+  background-color: #F5722C;
+  color: white;
+}
+.index__newproductcartbtns form button:nth-child(2) {
+  width: 150px;
+  height: 40px;
 }
