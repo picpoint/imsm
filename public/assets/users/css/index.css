@@ -224,6 +224,7 @@ body {
 .index__newproductswrp {
   border: 1px solid red;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   height: 100%;
@@ -231,9 +232,66 @@ body {
 .index__newproductshdr {
   border: 1px solid red;
   display: flex;
+  justify-content: center;
   margin: 30px 0;
 }
 .index__newproductshdr span {
   font-size: 2rem;
   font-family: Montserrat-Regular;
+}
+.index__newproductcardsblock {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+.index__newproductcardsblockwrp {
+  border: 1px solid red;
+  display: flex;
+  width: 80%;
+}
+.index__newproductcart {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 600px;
+}
+.index__newproductcartimg {
+  border: 1px solid red;
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+.index__newproductcartimg img {
+  width: 100%;
+  height: 100%;
+}
+.index__newproductcartdesc {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+.index__newproductcartdesc span {
+  border: 1px solid red;
+  font-family: Montserrat-Regular;
+  font-size: 0.9rem;
+  width: 90%;
+}
+.index__newproductcartprice {
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.index__newproductcartprice span {
+  border: 1px solid red;
+  font-family: Montserrat-Regular;
+  font-size: 2rem;
+}
+.index__newproductcartprice span:nth-child(1) {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.index__newproductcartprice span:nth-child(2) {
+  align-self: flex-end;
 }

@@ -262,6 +262,7 @@ body {
     &__newproductswrp {
       border: $border;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       width: 100%;
       height: 100%;
@@ -269,10 +270,69 @@ body {
     &__newproductshdr {
       border: $border;
       display: flex;
+      justify-content: center;
       margin: 30px 0;
         span {
           font-size: 2rem;
           font-family: Montserrat-Regular;
+        }
+    }
+    &__newproductcardsblock {
+      border: $border;
+      display: flex;
+      justify-content: center;
+      //height: 300px;
+    }
+    &__newproductcardsblockwrp {
+      border: $border;
+      display: flex;
+      width: 80%;
+      //height: 100px;
+    }
+    &__newproductcart {
+      border: $border;
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 600px;
+    }
+    &__newproductcartimg {
+      border: $border;
+      display: flex;
+      width: 300px;
+      height: 300px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+    }
+    &__newproductcartdesc {
+      border: $border;
+      display: flex;
+      justify-content: center;
+        span {
+          border: $border;
+          font-family: Montserrat-Regular;
+          font-size: 0.9rem;
+          width: 90%;
+        }
+    }
+    &__newproductcartprice {
+      border: $border;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px;
+        span {
+          border: $border;
+          font-family: Montserrat-Regular;
+          font-size: 2rem;
+            &:nth-child(1) {
+              font-weight: bold;
+              font-size: 2.5rem;
+            }
+            &:nth-child(2) {
+              align-self: flex-end;
+            }
         }
     }
 

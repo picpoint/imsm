@@ -133,7 +133,26 @@
                     <div class="index__newproductshdr">
                         <span>НОВИНКИ</span>
                     </div>
-                    
+                    <div class="index__newproductcardsblock">
+                        <div class="index__newproductcardsblockwrp">
+                            <div class="index__newproductcart">
+                                <div class="index__newproductcartimg">
+                                    <img src="/public/assets/users/img/color.jpg" alt="product">
+                                </div>
+                                <div class="index__newproductcartdesc">
+                                    <span>Краска в/д для наружных работ Caparol AcrylFassadenfarbe/АкрилФассаденфарбе  База 1, 10</span>
+                                </div>
+                                <div class="index__newproductcartprice">
+                                    <span>3900</span>
+                                    <span>p.</span>
+                                </div>
+                                <div class="index__newproductcartbtns">
+                                    <button>Купить</button>
+                                    <button>Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
