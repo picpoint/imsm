@@ -221,7 +221,6 @@ body {
   display: flex;
 }
 .index__newproductswrp {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -242,7 +241,6 @@ body {
   justify-content: center;
 }
 .index__newproductcardsblockwrp {
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -317,4 +315,15 @@ body {
 .index__newproductcartbtns form button:nth-child(2) {
   width: 150px;
   height: 40px;
+}
+.index__partners {
+  border: 1px solid red;
+  display: flex;
+  margin: 50px 0;
+  height: 150px;
+}
+.index__partnerswrp {
+  border: 1px solid red;
+  display: flex;
+  width: 100%;
 }

@@ -286,6 +286,14 @@
                 </div>
             </div>
 
+            <div class="index__partners">
+                <div class="index__partnerswrp">
+                    <div class="index__partnerscompany">
+                        <img src="/public/assets/users/img/partners/" alt="partner">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
