@@ -371,17 +371,67 @@ body {
     }
 
     &__partners {
-      border: $border;
+      border-top: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
       display: flex;
       margin: 50px 0;
       height: 150px;
     }
     &__partnerswrp {
-      border: $border;
+      //border: $border;
       display: flex;
+      justify-content: center;
+      align-items: center;
       width: 100%;
+        img {
+          //border: $border;
+          height: 50%;
+          margin: 0 20px;
+        }
     }
 
+    &__footer {
+      //border: $border;
+      display: flex;
+      height: 500px;
+      margin-top: 10px;
+      background-color: $colorfooter;
+    }
+    &__footerwrp {
+      border: $border;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+    &__footerinfo {
+      border: $border;
+      display: flex;
+      flex-grow: 1;
+    }
+    &__footercopyright {
+      //border: $border;
+      display: flex;
+      justify-content: center;
+      height: 50px;
+        span {
+          //border: $border;
+          display: flex;
+          align-items: center;
+          font-family: Montserrat-Regular;
+          font-size: 1rem;
+        }
+    }
+  &__footerinfo {
+    border: $border;
+    display: flex;
+    justify-content: center;
+  }
+  &__footerinfoblock {
+    border: $border;
+    display: flex;
+    width: 20%;
+  }
 
 
 
