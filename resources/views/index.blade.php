@@ -305,7 +305,14 @@
             <div class="index__footerwrp">
                 <div class="index__footerinfo">
                     <div class="index__footerinfoblock">
-
+                        <div class="index__footerinfoblockhdr">
+                            <span>Компания</span>
+                        </div>
+                        <div class="index__footerinfoblocklinks">
+                            <a href="#">О компании</a>
+                            <a href="#">Новости</a>
+                            <a href="#">Политика</a>
+                        </div>
                     </div>
                     <div class="index__footerinfoblock">
 

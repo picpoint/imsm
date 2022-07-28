@@ -403,14 +403,35 @@ body {
       flex-direction: column;
       justify-content: center;
       width: 100%;
+      height: 100%;
     }
     &__footerinfo {
       border: $border;
       display: flex;
-      flex-grow: 1;
+      height: 450px;
     }
+    &__footerinfoblock {
+      border: $border;
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+    }
+    &__footerinfoblockhdr {
+      border: $border;
+      display: flex;
+      height: 80px;
+    }
+    &__footerinfoblocklinks {
+      border: $border;
+      display: flex;
+      flex-direction: column;
+      height: 360px;
+    }
+
+
+
     &__footercopyright {
-      //border: $border;
+      border: $border;
       display: flex;
       justify-content: center;
       height: 50px;
@@ -422,16 +443,6 @@ body {
           font-size: 1rem;
         }
     }
-  &__footerinfo {
-    border: $border;
-    display: flex;
-    justify-content: center;
-  }
-  &__footerinfoblock {
-    border: $border;
-    display: flex;
-    width: 20%;
-  }
 
 
 
