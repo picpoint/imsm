@@ -420,13 +420,32 @@ body {
       border: $border;
       display: flex;
       height: 80px;
+        span {
+          border: $border;
+          display: flex;
+          align-items: flex-end;
+          width: 100%;
+          margin-left: 50px;
+          font-size: 1.1rem;
+          font-family: Montserrat-Regular;
+          font-weight: bold;
+        }
     }
     &__footerinfoblocklinks {
       border: $border;
       display: flex;
       flex-direction: column;
       height: 360px;
+        a {
+          border: $border;
+          font-family: Montserrat-Regular;
+          font-size: 1.1rem;
+          text-decoration: none;
+          color: black;
+          margin: 10px 0 10px 50px;
+        }
     }
+
 
 
 

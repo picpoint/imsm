@@ -315,16 +315,44 @@
                         </div>
                     </div>
                     <div class="index__footerinfoblock">
-
+                        <div class="index__footerinfoblockhdr">
+                            <span>Информация</span>
+                        </div>
+                        <div class="index__footerinfoblocklinks">
+                            <a href="#">Условия оплаты</a>
+                            <a href="#">Условия доставки</a>
+                            <a href="#">Реквизиты</a>
+                            <a href="#">Условия возврата</a>
+                        </div>
                     </div>
                     <div class="index__footerinfoblock">
-
+                        <div class="index__footerinfoblockhdr">
+                            <span>Помощь</span>
+                        </div>
+                        <div class="index__footerinfoblocklinks">
+                            <a href="#">Вопрос-ответ</a>
+                            <a href="#">Бренды</a>
+                        </div>
                     </div>
                     <div class="index__footerinfoblock">
-
+                        <div class="index__footerinfoblockhdr">
+                            <span>Будь в курсе</span>
+                        </div>
+                        <div class="index__footerinfoblocklinks">
+                            <a href="#">О компании</a>
+                            <a href="#">Новости</a>
+                            <a href="#">Политика</a>
+                        </div>
                     </div>
                     <div class="index__footerinfoblock">
-
+                        <div class="index__footerinfoblockhdr">
+                            <span>Компания</span>
+                        </div>
+                        <div class="index__footerinfoblocklinks">
+                            <a href="#">О компании</a>
+                            <a href="#">Новости</a>
+                            <a href="#">Политика</a>
+                        </div>
                     </div>
                 </div>
                 <div class="index__footercopyright">

@@ -363,11 +363,29 @@ body {
   display: flex;
   height: 80px;
 }
+.index__footerinfoblockhdr span {
+  border: 1px solid red;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  margin-left: 50px;
+  font-size: 1.1rem;
+  font-family: Montserrat-Regular;
+  font-weight: bold;
+}
 .index__footerinfoblocklinks {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
   height: 360px;
+}
+.index__footerinfoblocklinks a {
+  border: 1px solid red;
+  font-family: Montserrat-Regular;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black;
+  margin: 10px 0 10px 50px;
 }
 .index__footercopyright {
   border: 1px solid red;
