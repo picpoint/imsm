@@ -340,7 +340,6 @@ body {
   background-color: #F6F6F8;
 }
 .index__footerwrp {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -348,23 +347,19 @@ body {
   height: 100%;
 }
 .index__footerinfo {
-  border: 1px solid red;
   display: flex;
   height: 450px;
 }
 .index__footerinfoblock {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   width: 20%;
 }
 .index__footerinfoblockhdr {
-  border: 1px solid red;
   display: flex;
   height: 80px;
 }
 .index__footerinfoblockhdr span {
-  border: 1px solid red;
   display: flex;
   align-items: flex-end;
   width: 100%;
@@ -374,18 +369,38 @@ body {
   font-weight: bold;
 }
 .index__footerinfoblocklinks {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   height: 360px;
 }
 .index__footerinfoblocklinks a {
-  border: 1px solid red;
   font-family: Montserrat-Regular;
   font-size: 1.1rem;
   text-decoration: none;
   color: black;
   margin: 10px 0 10px 50px;
+}
+.index__footerinfoblocklinks form {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.index__footerinfoblocklinks form input {
+  border: 1px solid lightgrey;
+  width: 70%;
+  height: 45px;
+  margin-top: 10px;
+  font-family: Montserrat-Regular;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+.index__footerinfoblocklinks form button {
+  border: none;
+  background-color: #00910e;
+  width: 49px;
+  height: 49px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 .index__footercopyright {
   border: 1px solid red;

@@ -398,7 +398,7 @@ body {
       background-color: $colorfooter;
     }
     &__footerwrp {
-      border: $border;
+      //border: $border;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -406,22 +406,22 @@ body {
       height: 100%;
     }
     &__footerinfo {
-      border: $border;
+      //border: $border;
       display: flex;
       height: 450px;
     }
     &__footerinfoblock {
-      border: $border;
+      //border: $border;
       display: flex;
       flex-direction: column;
       width: 20%;
     }
     &__footerinfoblockhdr {
-      border: $border;
+      //border: $border;
       display: flex;
       height: 80px;
         span {
-          border: $border;
+          //border: $border;
           display: flex;
           align-items: flex-end;
           width: 100%;
@@ -432,17 +432,40 @@ body {
         }
     }
     &__footerinfoblocklinks {
-      border: $border;
+      //border: $border;
       display: flex;
       flex-direction: column;
       height: 360px;
         a {
-          border: $border;
+          //border: $border;
           font-family: Montserrat-Regular;
           font-size: 1.1rem;
           text-decoration: none;
           color: black;
           margin: 10px 0 10px 50px;
+        }
+        form {
+          //border: $border;
+          display: flex;
+          justify-content: center;
+          height: 100%;
+            input {
+              border: 1px solid lightgrey;
+              width: 70%;
+              height: 45px;
+              margin-top: 10px;
+              font-family: Montserrat-Regular;
+              font-size: 1rem;
+              padding-left: 10px;
+            }
+            button {
+              border: none;
+              background-color: $colorgreenbrand;
+              width: 49px;
+              height: 49px;
+              margin-top: 10px;
+              cursor: pointer;
+            }
         }
     }
 

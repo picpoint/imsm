@@ -339,19 +339,20 @@
                             <span>Будь в курсе</span>
                         </div>
                         <div class="index__footerinfoblocklinks">
-                            <a href="#">О компании</a>
-                            <a href="#">Новости</a>
-                            <a href="#">Политика</a>
+                            <form method="post">
+                                <input type="text" placeholder="Ваш email">
+                                <button type="submit"></button>
+                            </form>
                         </div>
                     </div>
                     <div class="index__footerinfoblock">
                         <div class="index__footerinfoblockhdr">
-                            <span>Компания</span>
+                            <span>Наши контакты</span>
                         </div>
                         <div class="index__footerinfoblocklinks">
-                            <a href="#">О компании</a>
-                            <a href="#">Новости</a>
-                            <a href="#">Политика</a>
+                            <a href="#">8-800-775-59-89</a>
+                            <a href="#">imsm@yandex.ru</a>
+                            <a href="#">г. Ставрополь</a>
                         </div>
                     </div>
                 </div>
