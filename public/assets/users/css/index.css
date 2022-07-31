@@ -87,7 +87,7 @@ body {
   align-items: center;
 }
 .index__logoblockpict a img {
-  height: 85%;
+  height: 100%;
 }
 .index__logoblockbasket {
   display: flex;
@@ -380,6 +380,16 @@ body {
   color: black;
   margin: 10px 0 10px 50px;
 }
+.index__footerinfoblocklinks span {
+  font-family: Montserrat-Regular;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black;
+  margin: 10px 0 10px 50px;
+}
+.index__footerinfoblocklinks span i {
+  margin-right: 10px;
+}
 .index__footerinfoblocklinks form {
   display: flex;
   justify-content: center;
@@ -402,8 +412,10 @@ body {
   margin-top: 10px;
   cursor: pointer;
 }
+.index__footerinfoblocklinks form button i {
+  color: white;
+}
 .index__footercopyright {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   height: 50px;

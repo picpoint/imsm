@@ -97,7 +97,7 @@ body {
           align-items: center;
           img {
             //border: $border;
-            height: 85%;
+            height: 100%;
           }
         }
     }
@@ -444,6 +444,17 @@ body {
           color: black;
           margin: 10px 0 10px 50px;
         }
+        span {
+          //border: $border;
+          font-family: Montserrat-Regular;
+          font-size: 1.1rem;
+          text-decoration: none;
+          color: black;
+          margin: 10px 0 10px 50px;
+            i {
+              margin-right: 10px;
+            }
+        }
         form {
           //border: $border;
           display: flex;
@@ -465,6 +476,9 @@ body {
               height: 49px;
               margin-top: 10px;
               cursor: pointer;
+                i {
+                  color: white;
+                }
             }
         }
     }
@@ -473,7 +487,7 @@ body {
 
 
     &__footercopyright {
-      border: $border;
+      //border: $border;
       display: flex;
       justify-content: center;
       height: 50px;

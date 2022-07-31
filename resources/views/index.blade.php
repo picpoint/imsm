@@ -30,7 +30,7 @@
                 </div>
                 <div class="index__logoblockpict">
                     <a href="#">
-                        <img src="/public/assets/users/img/logo.jpg" alt="logo">
+                        <img src="/public/assets/users/img/logo2.png" alt="logo">
                     </a>
                 </div>
                 <div class="index__logoblockbasket">
@@ -341,7 +341,7 @@
                         <div class="index__footerinfoblocklinks">
                             <form method="post">
                                 <input type="text" placeholder="Ваш email">
-                                <button type="submit"></button>
+                                <button type="submit"><i class="fas fa-arrow-right"></i></button>
                             </form>
                         </div>
                     </div>
@@ -350,9 +350,9 @@
                             <span>Наши контакты</span>
                         </div>
                         <div class="index__footerinfoblocklinks">
-                            <a href="#">8-800-775-59-89</a>
-                            <a href="#">imsm@yandex.ru</a>
-                            <a href="#">г. Ставрополь</a>
+                            <span><i class="fas fa-phone-alt"></i>8-800-775-59-89</span>
+                            <span><i class="fas fa-envelope"></i>imsm@yandex.ru</span>
+                            <span><i class="fas fa-city"></i>г. Ставрополь</span>
                         </div>
                     </div>
                 </div>
