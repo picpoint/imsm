@@ -87,7 +87,7 @@ body {
   align-items: center;
 }
 .index__logoblockpict a img {
-  height: 100%;
+  height: 70%;
 }
 .index__logoblockbasket {
   display: flex;

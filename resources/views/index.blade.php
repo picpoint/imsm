@@ -30,7 +30,7 @@
                 </div>
                 <div class="index__logoblockpict">
                     <a href="#">
-                        <img src="/public/assets/users/img/logo2.png" alt="logo">
+                        <img src="/public/assets/users/img/logo.png" alt="logo">
                     </a>
                 </div>
                 <div class="index__logoblockbasket">
