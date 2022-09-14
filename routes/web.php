@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', 'HomepageController@index')->name('index');
+Route::get('/admin', 'Admin\IndexPageController@index');
