@@ -15,31 +15,33 @@
 <section class="index">
     <div class="index__wrapper">
 
-        <div class="index__regblock">
-            <div class="index__regblockwrp">
-                <i class="fas fa-user"></i>
-                <a href="#">Личный кабинет</a>
-            </div>
-        </div>
 
-        <div class="index__logoblock">
-            <div class="index__logoblockwrp">
-                <div class="index__logoblockphone">
-                    <i class="fas fa-phone-alt"></i>
-                    <span>+7-918-804-44-27</span>
-                </div>
-                <div class="index__logoblockpict">
-                    <a href="#">
-                        <img src="/public/assets/users/img/logo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="index__logoblockbasket">
-                    <a href="#">
-                        <img src="/public/assets/users/img/basket.jpg" alt="basket">
-                    </a>
-                </div>
-            </div>
-        </div>
+        @include('users.layouts.header')
+        {{--<div class="index__regblock">--}}
+            {{--<div class="index__regblockwrp">--}}
+                {{--<i class="fas fa-user"></i>--}}
+                {{--<a href="{{ route('lk') }}">Личный кабинет</a>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+
+        {{--<div class="index__logoblock">--}}
+            {{--<div class="index__logoblockwrp">--}}
+                {{--<div class="index__logoblockphone">--}}
+                    {{--<i class="fas fa-phone-alt"></i>--}}
+                    {{--<span>+7-918-804-44-27</span>--}}
+                {{--</div>--}}
+                {{--<div class="index__logoblockpict">--}}
+                    {{--<a href="#">--}}
+                        {{--<img src="/public/assets/users/img/logo.png" alt="logo">--}}
+                    {{--</a>--}}
+                {{--</div>--}}
+                {{--<div class="index__logoblockbasket">--}}
+                    {{--<a href="#">--}}
+                        {{--<img src="/public/assets/users/img/basket.jpg" alt="basket">--}}
+                    {{--</a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
 
         <div class="index__menublock">
             <div class="index__menublockwrp">
@@ -119,7 +121,7 @@
                         </div>
                         <div class="index__popcategoriescart">
                             <a href="#">
-                                <img src="/public/assets/users/img/komplektuyushie.jpg" alt="category">
+                                <img src="/public/assets/users/img/gips.jpg" alt="category">
                             </a>
                         </div>
 
